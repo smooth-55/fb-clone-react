@@ -30,7 +30,7 @@ function Login() {
                 </div>
                 <center>
                 <div className="create__page">
-                    <a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Create a Page <span></span></a> &nbsp;
+                    <a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Create a Page <span></span></a> 
                  for a celebrity, brand or business.
                 </div>
                 </center>

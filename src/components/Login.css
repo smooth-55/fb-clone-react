@@ -6,20 +6,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 15rem;
     background-color:#f0f2f5
 
 }
 
 .login__left{
+
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: -5rem;
     
 }
 
 .login__container > .login__left > img{
     object-fit: contain;
     width: 30rem;
+    margin-left: -2.5rem;
 }
 
 .login__left > .login__h1 {
@@ -70,8 +74,8 @@
 
 }
 .login__form > button{
-    height: 5rem;
-    margin-top: 12px;
+    height: 4.5rem;
+    margin-top: 7px;
     border-radius: 6px;
     margin-bottom: 12px;
     font-size: 2rem;
@@ -110,8 +114,6 @@
     color: #ffffff;
     font-weight: bold;
     border: none;
-
-
     width: 10vw;
     font-size: 1.6rem;
     background-color: #4ab72b;
@@ -130,4 +132,16 @@ a{
 
 a:hover{
     text-decoration: underline;
+}
+
+.login__right > center > .create__page {
+    
+    padding-top: 2.8rem;
+    font-size: 1.4rem;
+}
+
+.login__right > center > .create__page  > a{
+    color: #000000;
+    font-weight: 700;
+
 }
