@@ -1,0 +1,133 @@
+
+.login__container{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    height: 73.5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-color:#f0f2f5
+
+}
+
+.login__left{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.login__container > .login__left > img{
+    object-fit: contain;
+    width: 30rem;
+}
+
+.login__left > .login__h1 {
+
+    font-weight: 100;
+    font-size: 30px;
+
+}
+.login__form__container{
+    width: 20vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border:1px solid #dddfe2;
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 1px 1px 3px #cbcdcf;
+}
+.login__right{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #fff;
+    border:1px solid #dddfe2;
+    border-radius: 12px;
+    padding: 12px; */
+}
+
+
+
+
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login__form > input{
+    /* width: 50rem; */
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border:1px solid #dddfe2;
+    border-radius: 5px;
+    font-size: 1.7rem;
+    outline: none;
+    
+
+}
+.login__form > button{
+    height: 5rem;
+    margin-top: 12px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+
+}
+
+
+.login__form > .log__in{
+    background-color: #1877f2;
+}
+
+
+
+.login__form > button:hover{
+    cursor: pointer;
+}
+
+ .forget__pw{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #1877f2
+
+    
+}
+
+.login__form >  center>  .new__account{
+
+    height: 5rem;
+    margin-top: 12px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+
+
+    width: 10vw;
+    font-size: 1.6rem;
+    background-color: #4ab72b;
+    
+}
+
+hr{
+    border:0.1px solid #dddfe2;
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
